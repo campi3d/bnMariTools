@@ -42,3 +42,5 @@ selectMaskInvertITEM.setIconPath('%s/SelectInvert.png' % icon_path)
 
 mari.menus.addAction(selectMaskITEM, 'MainWindow/&Layers/Layer Mask/Add Mask')
 mari.menus.addAction(selectMaskInvertITEM, 'MainWindow/&Layers/Layer Mask/Add Mask')
+mari.menus.addAction(selectMaskITEM, 'MainWindow/Scripts/Layers/Layer Mask')
+mari.menus.addAction(selectMaskInvertITEM, 'MainWindow/Scripts/Layers/Layer Mask')
